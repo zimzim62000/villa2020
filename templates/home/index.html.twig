@@ -1,0 +1,372 @@
+{% extends "base.html.twig" %}
+
+{% block title %}
+    {{ 'app.index.titlemeta'|trans }}
+{% endblock %}
+
+{% block meta %}
+    <meta name="description" content="{{ 'app.index.metadesc'|trans }}"/>
+{% endblock %}
+
+{% block body %}
+
+    <div class="row full-width">
+        <div class="small-8 small-centered columns">
+            <h1 id="house" class="tertiary-color text-center padding-top">{{ 'app.index.h1'|trans }}</h1>
+        </div>
+    </div>
+
+    <div class="row full-width padding-top">
+        <div class="small-6 columns">
+            <img src="{{ asset('images/villa_la_desiree_entree_garage.jpg') }}" alt="{{ 'image.maison3'|trans }}"
+                 title="{{ 'image.maison3'|trans }}"/>
+        </div>
+        <div class="small-6 columns">
+            <img src="{{ asset('images/villa_desisree_la_piscine_palmier_v3.jpg') }}" alt="{{ 'image.piscine3'|trans }}"
+                 title="{{ 'image.piscine3'|trans }}"/>
+        </div>
+    </div>
+
+    <div class="row full-width">
+        <div class="small-8 large-centered small-10 small-centered columns padding-top padding-bottom">
+            <p class="secondary-color">
+                {{ 'app.index.p1'|trans|raw }}
+            </p>
+        </div>
+    </div>
+
+    {#  Photos de la villa #}
+    <div class="row full-width  padding-top padding-bottom">
+        <div class="small-6 columns">
+            <img src="{{ asset('images/villa_entree_devanture.jpg') }}" alt="{{ 'image.maison1'|trans }}"
+                 title="{{ 'image.maison1'|trans }}"/>
+        </div>
+        <div class="small-6 columns">
+            <img src="{{ asset('images/villa_la_desiree_cote_cour.jpg') }}" alt="{{ 'image.maison2'|trans }}"
+                 title="{{ 'image.maison2'|trans }}"/>
+        </div>
+    </div>
+
+    <div class="row full-width">
+        <div class="small-10 small-centered columns">
+            <h2 class="primary-color text-center padding-bottom">{{ 'app.index.h2'|trans }}</h2>
+        </div>
+    </div>
+
+
+    <div class="row full-width">
+        <div class="small-10 small-centered columns">
+            <h3 class="primary-color text-center padding-top">{{ 'app.index.chambre'|trans }}</h3>
+        </div>
+        <div class="small-10 small-centered columns">
+            <p class="secondary-color">
+                {{ 'app.index.chambrep'|trans|raw }}
+            </p>
+        </div>
+    </div>
+    {#  Photos des chambres #}
+    <div class="row full-width">
+        <div class="small-6 columns">
+            <img src="{{ asset('images/chambre_parentale.jpg') }}" alt="{{ 'image.chambre2'|trans }}"
+                 title="{{ 'image.chambre2'|trans }}"/>
+        </div>
+        <div class="small-6 columns">
+            <img src="{{ asset('images/villa_desiree_la_chambre_jaune.jpg') }}" alt="{{ 'image.chambre4'|trans }}"
+                 title="{{ 'image.chambre4'|trans }}"/>
+        </div>
+    </div>
+    <div class="row full-width padding-top">
+        <div class="small-6 columns">
+            <img src="{{ asset('images/chambre_mezzanine.jpg') }}" alt="{{ 'image.chambre3'|trans }}"
+                 title="{{ 'image.chambre3'|trans }}"/>
+        </div>
+        <div class="small-6 columns">
+            <img src="{{ asset('images/chambre_enfant.jpg') }}" alt="{{ 'image.chambre1'|trans }}"
+                 title="{{ 'image.chambre1'|trans }}"/>
+        </div>
+    </div>
+
+    <div class="row full-width">
+        <div class="small-10 small-centered columns">
+            <h3 class="primary-color text-center padding-top">{{ 'app.index.cuisine'|trans }}</h3>
+        </div>
+        <div class="small-10 small-centered columns">
+            <p class="secondary-color">
+                {{ 'app.index.cuisinep'|trans|raw }}
+            </p>
+        </div>
+    </div>
+    <div class="row full-width">
+        <div class="small-4 columns text-center padding-bottom">
+            <img class="" src="{{ asset('images/la_cuisine_de_la_villa.jpg') }}" alt="{{ 'image.cuisine1'|trans }}"
+                 title="{{ 'image.cuisine1'|trans }}"/>
+        </div>
+        <div class="small-4 columns text-center">
+            <img class="" src="{{ asset('images/salon_interieur.jpg') }}" alt="{{ 'image.cuisine3'|trans }}"
+                 title="{{ 'image.cuisine3'|trans }}"/>
+        </div>
+        <div class="small-4 columns text-center">
+            <img class="" src="{{ asset('images/maison_interieur.jpg') }}" alt="{{ 'image.cuisine2'|trans }}"
+                 title="{{ 'image.cuisine2'|trans }}"/>
+        </div>
+    </div>
+    <div class="row full-width">
+        <div class="small-10 small-centered columns">
+            <h3 class="primary-color text-center padding-top">{{ 'app.index.terrasse'|trans }}</h3>
+        </div>
+        <div class="small-10 small-centered columns  padding-bottom">
+            <p class="secondary-color">
+                {{ 'app.index.terrassep'|trans|raw }}
+            </p>
+        </div>
+    </div>
+
+    <div class="row full-width">
+        <div class="small-3 columns text-center">
+            <img class="" src="{{ asset('images/villa_la_table_du_dejeuner_creole.jpg') }}"
+                 alt="{{ 'image.terasse3'|trans }}" title="{{ 'image.terasse3'|trans }}"/>
+        </div>
+        <div class="small-3 columns text-center padding-bottom">
+            <img class="" src="{{ asset('images/la_table_de_la_villa_le_soir.jpg') }}"
+                 alt="{{ 'image.terasse4'|trans }}" title="{{ 'image.terasse4'|trans }}"/>
+        </div>
+        <div class="small-3 columns text-center padding-bottom">
+            <img class="" src="{{ asset('images/Le_jardin_détente_de_la_villa.jpg') }}"
+                 alt="{{ 'image.terasse1'|trans }}" title="{{ 'image.terasse1'|trans }}"/>
+        </div>
+        <div class="small-3 columns text-center">
+            <img class="" src="{{ asset('images/le_salon_le_soir_a_la_villa.jpg') }}" alt="{{ 'image.terasse2'|trans }}"
+                 title="{{ 'image.terasse2'|trans }}"/>
+        </div>
+    </div>
+    <div class="row full-width">
+        <div class="small-10 small-centered columns">
+            <h3 class="primary-color text-center padding-top">{{ 'app.index.piscine'|trans }}</h3>
+        </div>
+        <div class="small-10 small-centered columns  padding-bottom">
+            <p class="secondary-color">{{ 'app.index.piscinep'|trans|raw }}</p>
+        </div>
+    </div>
+    <div class="row full-width">
+        <div class="small-4 columns text-center padding-bottom">
+            <img class="" src="{{ asset('images/villa_desisree_la_piscine_palmier.jpg') }}"
+                 alt="{{ 'image.piscine1'|trans }}" title="{{ 'image.piscine1'|trans }}"/>
+        </div>
+        <div class="small-4 columns text-center">
+            <img class="" src="{{ asset('images/villa_desisree_la_piscine_palmier_v2.jpg') }}"
+                 alt="{{ 'image.piscine2'|trans }}" title="{{ 'image.piscine2'|trans }}"/>
+        </div>
+        <div class="small-4 columns text-center">
+            <img class="" src="{{ asset('images/villa_desisree_la_piscine_palmier_v3.jpg') }}"
+                 alt="{{ 'image.piscine3'|trans }}" title="{{ 'image.piscine3'|trans }}"/>
+        </div>
+
+    </div>
+
+    <div class="row full-width">
+        <div class="small-4 columns text-center padding-bottom">
+            <img class="" src="{{ asset('images/fleur_1.jpg') }}" alt="{{ 'image.fleur1'|trans }}"
+                 title="{{ 'image.fleur1'|trans }}"/>
+        </div>
+        <div class="small-4 columns text-center">
+            <img class="" src="{{ asset('images/fleur_2.jpg') }}" alt="{{ 'image.fleur2'|trans }}"
+                 title="{{ 'image.fleur2'|trans }}"/>
+        </div>
+        <div class="small-4 columns text-center">
+            <img class="" src="{{ asset('images/fleur_3.jpg') }}" alt="{{ 'image.fleur3'|trans }}"
+                 title="{{ 'image.fleur3'|trans }}"/>
+        </div>
+    </div>
+    <div class="row full-width">
+        <div class="small-4 small-centered columns text-center padding-bottom padding-top">
+            <a href="{{ path('home') }}"
+               class="button success large">{{ 'app.index.clicktocall'|trans }}</a>
+        </div>
+    </div>
+
+
+    <div class="parallax-window" data-parallax="scroll"
+         data-image-src="{{ asset('images/plage_de_fort_royal.jpg') }}"></div>
+
+
+
+    <div class="row full-width">
+        <div class="small-10 small-centered columns">
+            <h3 class="primary-color text-center padding-top">{{ 'app.index.jardin'|trans }}</h3>
+        </div>
+    </div>
+    <div class="row full-width">
+        <div class="small-10 small-centered columns padding-bottom">
+            <p class="secondary-color padding-top padding-bottom">
+                {{ 'app.index.jardinp'|trans|raw }}
+            </p>
+        </div>
+    </div>
+
+    <div class="row full-width text-center">
+        <div class="medium-6 medium-centered columns padding-bottom">
+            <img class="large padding-1" src="{{ asset('images/arbre_du_voyageur.jpg') }}"
+                 title="{{ 'image.jardin1'|trans }}" alt="{{ 'image.jardin1'|trans }}"/>
+            <img class="large padding-1" src="{{ asset('images/jardin-palmier-bismarck.jpg') }}"
+                 title="{{ 'image.jardin2'|trans }}" alt="{{ 'image.jardin2'|trans }}"/>
+        </div>
+    </div>
+
+    <div class="row full-width">
+        <div class="small-10 small-centered columns">
+            <h3 class="primary-color text-center padding-top">{{ 'app.index.plage'|trans }}</h3>
+        </div>
+    </div>
+    <div class="row full-width">
+        <div class="small-10 small-centered columns padding-bottom">
+            <p class="secondary-color padding-top padding-bottom">{{ 'app.index.plagep'|trans|raw }}</p>
+        </div>
+    </div>
+
+    <div class="row full-width">
+        <div class="small-4 columns text-center padding-bottom">
+            <img class="" src="{{ asset('images/plage_de_fort_royal.jpg') }}" alt="{{ 'image.plage3'|trans }}"
+                 title="{{ 'image.plage3'|trans }}"/>
+        </div>
+        <div class="small-4 columns text-center">
+            <img class="" src="{{ asset('images/plage_de_fort_royal_2.jpg') }}" alt="{{ 'image.plage5'|trans }}"
+                 title="{{ 'image.plage5'|trans }}"/>
+        </div>
+        <div class="small-4 columns text-center">
+            <img class="" src="{{ asset('images/plage_de_fort_royal_3.jpg') }}" alt="{{ 'image.plage4'|trans }}"
+                 title="{{ 'image.plage4'|trans }}"/>
+        </div>
+    </div>
+
+
+    <div class="row padding-top" id="guada">
+        <div class="small-6 columns">
+            <h2 class="tertiary-color text-center padding-top">{{ 'app.index.environement'|trans }}</h2>
+        </div>
+        <div class="small-6 columns text-center">
+            <img class="medium" src="{{ asset('images/Carte-Guadeloupe-3.jpg') }}" title="{{ 'image.carte'|trans }}"
+                 alt="{{ 'image.carte'|trans }}"/>
+        </div>
+    </div>
+    <div class="row full-width">
+        <div class="large-10 large-centered small-10 small-centered columns padding-bottom">
+            <p class="secondary-color padding-top padding-bottom">{{ 'app.index.environementp'|trans|raw }}</p>
+        </div>
+    </div>
+
+    <div class="row full-width">
+        <div class="small-6 columns text-center padding-bottom">
+            <img class="medium" src="{{ asset('images/deshaies.jpg') }}" title="{{ 'image.deshaie'|trans }}"
+                 alt="{{ 'image.deshaie'|trans }}"/>
+        </div>
+        <div class="small-6 columns text-center">
+            <img class="medium" src="{{ asset('images/eglise_deshaies.jpg') }}"
+                 title="{{ 'image.eglisedeshaie'|trans }}" alt="{{ 'image.eglisedeshaie'|trans }}"/>
+        </div>
+    </div>
+
+
+    <div class="row full-width">
+        <div class="small-10 small-centered columns">
+            <h3 class="primary-color text-center padding-top">{{ 'app.index.guadaclimat'|trans }}</h3>
+        </div>
+        <div class="small-10 small-centered columns padding-bottom">
+            <p class="secondary-color padding-top padding-bottom">{{ 'app.index.guadaclimatp'|trans|raw }}</p>
+        </div>
+    </div>
+
+    <div class="row full-width">
+        <div class="small-6 columns text-center padding-bottom">
+            <img class="large" src="{{ asset('images/epice.jpg') }}" title="{{ 'image.marche1'|trans }}"
+                 alt="{{ 'image.marche1'|trans }}"/>
+        </div>
+        <div class="small-6 columns text-center">
+            <img class="large" src="{{ asset('images/legume.jpg') }}" title="{{ 'image.marche2'|trans }}"
+                 alt="{{ 'image.marche2'|trans }}"/>
+        </div>
+    </div>
+
+    <div class="parallax-window" data-parallax="scroll"
+         data-image-src="{{ asset('images/les-flamants-du-jardin-botanique.jpg') }}"></div>
+
+    <div class="row full-width" id="activity">
+        <div class="small-10 small-centered columns">
+            <h3 class="primary-color text-center padding-top">{{ 'app.index.activity'|trans }}</h3>
+        </div>
+        <div class="large-8 large-centered small-12 columns padding-bottom">
+            <p class="secondary-color padding-top padding-bottom">{{ 'app.index.activityp'|trans|raw }}</p>
+        </div>
+    </div>
+
+    <div class="owl-carousel padding-bottom">
+        <div class="">
+            <img src="{{ asset('images/arbre-du-voyageur.jpg') }}" title="{{ 'image.arbre'|trans }}"
+                 alt="{{ 'image.arbre'|trans }}"/>
+        </div>
+        <div class="">
+            <img src="{{ asset('images/la-cascade-aux-ecrevisses.jpg') }}" title="{{ 'image.cascade'|trans }}"
+                 alt="{{ 'image.cascade'|trans }}"/>
+        </div>
+        <div class="">
+            <img src="{{ asset('images/la-Plage-de-la-Perle.jpg') }}" title="{{ 'image.plage'|trans }}"
+                 alt="{{ 'image.plage'|trans }}"/>
+        </div>
+        <div class="">
+            <img src="{{ asset('images/la-plage-malendure.jpg') }}" title="{{ 'image.plage1'|trans }}"
+                 alt="{{ 'image.plage1'|trans }}"/>
+        </div>
+        <div class="">
+            <img src="{{ asset('images/la-plongee-les-poissons.jpg') }}" title="{{ 'image.plonge'|trans }}"
+                 alt="{{ 'image.plonge'|trans }}"/>
+        </div>
+    </div>
+
+    <div class="row full-width">
+        <div class="small-10 small-centered columns">
+            <h3 class="primary-color text-center padding-top">{{ 'app.index.decouverte'|trans }}</h3>
+        </div>
+        <div class="small-10 small-centered columns">
+            <p class="secondary-color padding-top padding-bottom">{{ 'app.index.decouvertep'|trans|raw }}</p>
+        </div>
+    </div>
+
+    <div class="parallax-window" data-parallax="scroll"
+         data-image-src="{{ asset('images/Les-plages-a-proximite.jpg') }}"></div>
+
+    <div class="row full-width">
+        <div class="medium-6 column text-center  padding-bottom">
+            <h4 class="primary-color text-center padding-top">{{ 'app.index.pointe'|trans }}</h4>
+            <p class="secondary-color padding-top padding-bottom">{{ 'app.index.pointep'|trans|raw }}</p>
+            <img class="medium" src="{{ asset('images/Pointe-à-Pitre_sous-préfecture.jpg') }}"
+                 title="{{ 'image.pointe'|trans }}" alt="{{ 'image.pointe'|trans }}"/>
+        </div>
+        <div class="medium-6 columns text-center padding-bottom">
+            <h4 class="primary-color text-center padding-top">{{ 'app.index.grandterre'|trans }}</h4>
+            <p class="secondary-color padding-top ">{{ 'app.index.grandterrep'|trans|raw }}</p>
+            <img class="medium" src="{{ asset('images/Les-plages-a-proximite.jpg') }}"
+                 title="{{ 'image.plage2'|trans }}" alt="{{ 'image.plage2'|trans }}"/>
+        </div>
+    </div>
+
+
+{% endblock %}
+
+
+
+
+{% block javascriptready %}
+    <script>
+        $(document).ready(function () {
+            $(document).foundation();
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                items: 3,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 2500,
+                autoplayHoverPause: true
+            });
+        });
+    </script>
+{% endblock javascriptready %}
