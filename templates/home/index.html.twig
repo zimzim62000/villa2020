@@ -11,10 +11,26 @@
 {% block body %}
 
     <div class="row full-width">
-        <div class="small-8 small-centered columns">
+        <div class="small-10 small-centered columns">
             <h1 id="house" class="tertiary-color text-center padding-top">{{ 'app.index.h1'|trans }}</h1>
         </div>
     </div>
+
+
+    <div class="row full-width">
+        <div class="small-8 small-centered columns">
+            <h2 id="house" class="tertiary-color text-center padding-top">{{ 'app.index.h22'|trans }}</h2>
+        </div>
+    </div>
+
+    <div class="row full-width">
+        <div class="small-12 columns text-center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9sxMH45PPIE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <hr>
+    <hr>
 
     <div class="row full-width padding-top">
         <div class="small-6 columns">
@@ -22,7 +38,7 @@
                  title="{{ 'image.maison3'|trans }}"/>
         </div>
         <div class="small-6 columns">
-            <img src="{{ asset('images/villa_desisree_la_piscine_palmier_v3.jpg') }}" alt="{{ 'image.piscine3'|trans }}"
+            <img src="{{ asset('images/piscine_transat.jpg') }}" alt="{{ 'image.piscine3'|trans }}"
                  title="{{ 'image.piscine3'|trans }}"/>
         </div>
     </div>
@@ -86,6 +102,9 @@
         </div>
     </div>
 
+    <div class="parallax-window" data-parallax="scroll"
+         data-image-src="{{ asset('images/attrape_bruit.jpg') }}"></div>
+
     <div class="row full-width">
         <div class="small-10 small-centered columns">
             <h3 class="primary-color text-center padding-top">{{ 'app.index.cuisine'|trans }}</h3>
@@ -102,7 +121,7 @@
                  title="{{ 'image.cuisine1'|trans }}"/>
         </div>
         <div class="small-4 columns text-center">
-            <img class="" src="{{ asset('images/salon_interieur.jpg') }}" alt="{{ 'image.cuisine3'|trans }}"
+            <img class="" src="{{ asset('images/salon_haut.jpg') }}" alt="{{ 'image.cuisine3'|trans }}"
                  title="{{ 'image.cuisine3'|trans }}"/>
         </div>
         <div class="small-4 columns text-center">
@@ -122,21 +141,17 @@
     </div>
 
     <div class="row full-width">
-        <div class="small-3 columns text-center">
+        <div class="small-4 columns text-center">
             <img class="" src="{{ asset('images/villa_la_table_du_dejeuner_creole.jpg') }}"
                  alt="{{ 'image.terasse3'|trans }}" title="{{ 'image.terasse3'|trans }}"/>
         </div>
-        <div class="small-3 columns text-center padding-bottom">
+        <div class="small-4 columns text-center padding-bottom">
             <img class="" src="{{ asset('images/la_table_de_la_villa_le_soir.jpg') }}"
                  alt="{{ 'image.terasse4'|trans }}" title="{{ 'image.terasse4'|trans }}"/>
         </div>
-        <div class="small-3 columns text-center padding-bottom">
-            <img class="" src="{{ asset('images/Le_jardin_détente_de_la_villa.jpg') }}"
+        <div class="small-4 columns text-center padding-bottom">
+            <img class="" src="{{ asset('images/salon_exterieur.jpg') }}"
                  alt="{{ 'image.terasse1'|trans }}" title="{{ 'image.terasse1'|trans }}"/>
-        </div>
-        <div class="small-3 columns text-center">
-            <img class="" src="{{ asset('images/le_salon_le_soir_a_la_villa.jpg') }}" alt="{{ 'image.terasse2'|trans }}"
-                 title="{{ 'image.terasse2'|trans }}"/>
         </div>
     </div>
     <div class="row full-width">
@@ -160,23 +175,12 @@
             <img class="" src="{{ asset('images/villa_desisree_la_piscine_palmier_v3.jpg') }}"
                  alt="{{ 'image.piscine3'|trans }}" title="{{ 'image.piscine3'|trans }}"/>
         </div>
-
     </div>
 
-    <div class="row full-width">
-        <div class="small-4 columns text-center padding-bottom">
-            <img class="" src="{{ asset('images/fleur_1.jpg') }}" alt="{{ 'image.fleur1'|trans }}"
-                 title="{{ 'image.fleur1'|trans }}"/>
-        </div>
-        <div class="small-4 columns text-center">
-            <img class="" src="{{ asset('images/fleur_2.jpg') }}" alt="{{ 'image.fleur2'|trans }}"
-                 title="{{ 'image.fleur2'|trans }}"/>
-        </div>
-        <div class="small-4 columns text-center">
-            <img class="" src="{{ asset('images/fleur_3.jpg') }}" alt="{{ 'image.fleur3'|trans }}"
-                 title="{{ 'image.fleur3'|trans }}"/>
-        </div>
-    </div>
+    <hr>
+
+
+
     <div class="row full-width">
         <div class="small-4 small-centered columns text-center padding-bottom padding-top">
             <a href="{{ path('home') }}"
@@ -185,8 +189,12 @@
     </div>
 
 
+    <hr>
+
+
     <div class="parallax-window" data-parallax="scroll"
          data-image-src="{{ asset('images/plage_de_fort_royal.jpg') }}"></div>
+
 
 
 
@@ -203,14 +211,68 @@
         </div>
     </div>
 
-    <div class="row full-width text-center">
-        <div class="medium-6 medium-centered columns padding-bottom">
-            <img class="large padding-1" src="{{ asset('images/arbre_du_voyageur.jpg') }}"
-                 title="{{ 'image.jardin1'|trans }}" alt="{{ 'image.jardin1'|trans }}"/>
-            <img class="large padding-1" src="{{ asset('images/jardin-palmier-bismarck.jpg') }}"
-                 title="{{ 'image.jardin2'|trans }}" alt="{{ 'image.jardin2'|trans }}"/>
-        </div>
+    {#
+    <div class="">
+        <img src="{{ asset('images/attrape_bruit.jpg') }}" title="{{ 'image.fleur3'|trans }}"
+             alt="{{ 'image.fleur3'|trans }}"/>
     </div>
+    <div class="">
+        <img src="{{ asset('images/arbre_du_voyageur.jpg') }}" title="{{ 'image.arbre_du_voyageur'|trans }}"
+             alt="{{ 'image.arbre_du_voyageur'|trans }}"/>
+    </div>
+    #}
+
+    <div class="owl-carousel padding-bottom">
+        <div class="">
+            <img src="{{ asset('images/jardin-palmier-bismarck.jpg') }}" title="{{ 'image.jardin2'|trans }}"
+                 alt="{{ 'image.jardin2'|trans }}"/>
+        </div>
+        <div class="">
+            <img src="{{ asset('images/fleur_blanche.jpg') }}" title="{{ 'image.fleur1'|trans }}"
+                 alt="{{ 'image.fleur1'|trans }}"/>
+        </div>
+        <div class="">
+            <img src="{{ asset('images/fleur_blanche2.jpg') }}" title="{{ 'image.fleur1'|trans }}"
+                 alt="{{ 'image.fleur1'|trans }}"/>
+        </div>
+        <div class="">
+            <img src="{{ asset('images/fleur_rose.jpg') }}" title="{{ 'image.fleur1'|trans }}"
+                 alt="{{ 'image.fleur1'|trans }}"/>
+        </div>
+        <div class="">
+            <img src="{{ asset('images/fleur_rose2.jpg') }}" title="{{ 'image.fleur1'|trans }}"
+                 alt="{{ 'image.fleur1'|trans }}"/>
+        </div>
+        <div class="">
+            <img src="{{ asset('images/fleur_rose3.jpg') }}" title="{{ 'image.fleur1'|trans }}"
+                 alt="{{ 'image.fleur1'|trans }}"/>
+        </div>
+        <div class="">
+            <img src="{{ asset('images/fleur_rose4.jpg') }}" title="{{ 'image.fleur1'|trans }}"
+                 alt="{{ 'image.fleur1'|trans }}"/>
+        </div>
+        <div class="">
+            <img src="{{ asset('images/fleur_rouge.jpg') }}" title="{{ 'image.fleur1'|trans }}"
+                 alt="{{ 'image.fleur1'|trans }}"/>
+        </div>
+        <div class="">
+            <img src="{{ asset('images/fleur_1.jpg') }}" title="{{ 'image.fleur1'|trans }}"
+                 alt="{{ 'image.fleur1'|trans }}"/>
+        </div>
+        <div class="">
+            <img src="{{ asset('images/fleur_2.jpg') }}" title="{{ 'image.fleur2'|trans }}"
+                 alt="{{ 'image.fleur2'|trans }}"/>
+        </div>
+        <div class="">
+            <img src="{{ asset('images/fleur_3.jpg') }}" title="{{ 'image.fleur3'|trans }}"
+                 alt="{{ 'image.fleur3'|trans }}"/>
+        </div>
+
+    </div>
+
+    <hr>
+    <hr>
+
 
     <div class="row full-width">
         <div class="small-10 small-centered columns">
