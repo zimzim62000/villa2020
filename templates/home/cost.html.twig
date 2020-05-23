@@ -13,7 +13,7 @@
     </div>
 
     <div class="row ">
-        <div class="small-8 large-centered small-10 small-centered columns padding-top padding-bottom">
+        <div class="small-8 large-centered small-10 small-centered columns ">
             <h2 class="tertiary-color text-center padding-top">{{ "app.cost.nuite"|trans }}</h2>
             <p class="secondary-color">
                 {{ "app.cost.pnuite"|trans|raw }}
@@ -26,27 +26,34 @@
             <h2 class="tertiary-color text-center padding-top">{{ "app.cost.tarifs"|trans }}</h2>
         </div>
     </div>
-
+    <div class="row">
+        <div class="small-8 small-centered columns">
+            <small>A partir de :</small>
+        </div>
+    </div>
     <div class="row">
         <div class="small-12 columns">
             <table>
                 <tr>
                     <th>Tarif de location</th>
-                    <th>Basse saison*</th>
                     <th>Moyenne saison*</th>
                     <th>Haute saison*</th>
                     <th>Trés haute saison</th>
                 </tr>
                 <tr class="text-center">
+                    <td></td>
+                    <td>Juin-Sept-Oct</td>
+                    <td>Nov à Mai & Juillet-Aout</td>
+                    <td>Noêl & Nouvel An</td>
+                </tr>
+                <tr class="text-center">
                     <td>Nuitée</td>
-                    <td>122€</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
+                    <td>150</td>
+                    <td>179</td>
+                    <td>200</td>
                 </tr>
                 <tr class="text-center">
                     <td>Semaine</td>
-                    <td>900€</td>
                     <td>1050€</td>
                     <td>1250€</td>
                     <td>1400€</td>

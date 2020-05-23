@@ -136,14 +136,13 @@ app:
         title: "Tarifs et Réservation de la Villa Désirée"
         nuite: "Les nuitées"
         pnuite: >
-            Basse saison : 5 nuits minimun<br />
-            Moyenne et Haute saison : 7 nuits minimum<br />
+            La durée de séjour minimun est de 5 nuits.<br />
+            La villa est également visible sur
+            <a target="_blank" href="https://www.abritel.fr/location-vacances/p1517562">Home Away - Abritel</a><br />
+            <a target="_blank" href="https://www.abritel.fr/location-vacances/p1517562#rates-availability">Voir les disponibilité</a>
         tarifs: "Les tarifs"
         legendetarifs: >
-            Basse saison : mai, juin, septembre et octobre<br />
-            Moyenne saison : juillet, aout, vacances de Toussaint, novembre, début décembre<br />
-            Haute saison : décembre, janvier, février, mars, avril<br />
-            Trés Haute saison : Vacances de noel, nouvel an<br />
+            Les tarifs sont donnés pour une base de 6 personnes.
         condition: "Les conditions"
         condiplus: >
             La réservation est effective après encaissement d’un virement bancaire correspondant à 30% du montant de la location<br />
