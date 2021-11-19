@@ -19,7 +19,7 @@ app:
             La Villa Désirée est une villa de charme qui comporte 4 chambres (dont 1 pour enfant), une grande terrasse et qui est entourée de son jardin tropical.<br />
             La villa possède sa propre piscine de 7m sur 3m avec sa terrasse et ses transats, piscine entourée de palmiers et arbres exotiques…<br />
             La Villa Désirée est située en bord de mer, la très jolie plage de bas-vent est située à moins de 5 minutes à pied (juste en descendant les petites rues de la résidence).<br />
-            La Villa Désirée, une villa familiale complétement équipée pour 8 personnes<br />
+            La Villa Désirée, une villa familiale complétement équipée pour 8 personnes, avec 3 salles de bain et 2 toilettes<br />
         h2: "Venez y passer vos vacances en famille ou entre amis"
         lavilla: "La Villa Désirée, une villa tout confort, 4 chambres climatisées avec piscine et plage pour vos locations de vacances"
         lavillap: >
@@ -38,11 +38,12 @@ app:
             La literie est de très bonne qualité pour vous assurer des nuits réparatrices afin de profiter au maximum de vos journées sur l’île Papillon.<br />
             Les lits sont faits à votre arrivée, vous n’avez pas de draps à prévoir.<br />
             Toutes les chambres sont décorées avec leur propre style, à vous de choisir celles que vous préférez.<br />
-        cuisine: "La Villa Désirée, une location de vacances pour cuisiner ou pour profiter"
+        cuisine: "La Villa Désirée, une location de vacances tout Confort!"
         cuisinep: >
-            Une cuisine ouverte avec un accès direct sur la terrasse (cuisine entièrement équipée : lave-vaisselle, frigo-congélateur, plaque de cuisson, micro-ondes…) et tout le matériel nécessaire pour préparer et consommer vos repas (cafetière, grille-pain, bouilloire, mixeur, divers ustensiles …)<br />
+            Une cuisine ouverte avec un accès direct sur la terrasse (cuisine entièrement équipée : lave-vaisselle, frigo-congélateur, plaque de cuisson, micro-ondes…) et tout le matériel nécessaire pour préparer et consommer vos repas (cafetière, grille-pain, bouilloire, mixeur, divers ustensiles …)<br />Également à votre disposition, une plancha pour cuire vos grillades ou les délicieux poissons.<br />
             Dans la cuisine, vous pourrez vous préparer de délicieuses salades, de bons plats mijotés ou des grillades de poisson. N’hésitez pas à découvrir le port de DESHAIES, de nombreux pécheurs vous indiqueront la meilleure recette de poisson (au lait de coco) à préparer à la Villa Désirée.<br />
-            Un coin salon équipé d’une télévision écran plat (Tv d’orange) et d’un accès internet en Wi-Fi.<br />
+            Un coin salon équipé d’une télévision écran plat (Tv d’orange) et d’un accès internet en Wi-Fi.<br />Une deuxième télévision dans une des chambres<br />
+            La villa peut accueillir 8 vacanciers et il y a donc 3 salles de bain disponibles (1 supplémentaire avec toilette, douche à l'italienne et meuble vasque depuis juillet 2021) et bien sûr la douche solaire près de la piscine.<br />
         terrasse: "LA TERRASSE - La Villa Désirée, une location de vacances pour se détendre"
         terrassep: >
             La Villa Désirée comprend une terrasse couverte de plus de 22 m2 pour prendre vos repas (grande table en bois) et également un coin détente avec canapé, pouf et hamac<br />
@@ -54,11 +55,10 @@ app:
             A la villa Désirée vous avez une piscine rien que pour vous !<br />
             Pas d’autres vacanciers qui peuvent l’utiliser, pas de piscine en commun avec d’autres villas ou bungalows, vous profitez en toute tranquillité de votre piscine !<br />
             La piscine de 7m sur 3m est une piscine qui fonctionne sur le principe de l’électrolyse au sel.<br />
-            L’eau de la piscine est donc très légèrement salée (7 fois moins que l’eau de mer !) et le système détruit efficacement les bactéries, les algues, les germes…tout cela sans produit chimique.<br />
-            A la Villa Désirée, vous profitez des joies de la piscine sans aucun traitement chimique, aucune odeur de chlore, aucune irritation de la peau, des yeux…autant de bénéfice pour la santé et la peau fragile des enfants.<br />
+            donc sans produit chimique.<br />
+            Pour la sécurité des enfants, un système d'alarme Anti immersion est présent et sur demande, nous pouvons vous fournir une sécurité supplémentaire pour les jeunes enfants : de petits bracelets plastiques reliés à une alarme et/ou votre smartphone qui vous alertent en cas d'immersion dans l'eau.<br />
             Vous pouvez donc sauter, jouer et nager en toute tranquillité.<br />
-            Et avantage pour notre planète, c’est un traitement beaucoup plus écologique.<br />
-            Et pour se détendre, les transats vous attendent !
+            Et pour se détendre, les transats vous attendent !<br />
         clicktocall: "Je réserve !"
         jardin: "LE JARDIN TROPICAL – La Villa Désirée, une location de vacances dans un jardin caraïbe"
         jardinp: >
